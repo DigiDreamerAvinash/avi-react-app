@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
+export default function App() {
+  const [showQuote, setShowQuote] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Hello World... This is my React.js</h1>
+      <button
+        onClick={() => setShowQuote(true)}
+        style={{
+          padding: "10px 20px",
+          fontSize: "16px",
+          backgroundColor: "#6200ea",
+          color: "white",
+          border: "none",
+          borderRadius: "5px",
+          cursor: "pointer",
+          marginTop: "20px"
+        }}
+      >
+        Click Me
+      </button>
+
+      {showQuote && (
+        <p style={{ marginTop: "20px", fontSize: "18px", color: "#333" }}>
+          "You are the queen of your own world, you can do magic... Keep growing with a smile."
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      )}
     </div>
   );
 }
-
-export default App;
