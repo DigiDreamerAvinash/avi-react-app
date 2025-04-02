@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/avi-react-app/static/css/main.f855e6bc.css",
-    "main.js": "/avi-react-app/static/js/main.77cf788c.js",
+    "main.css": "/avi-react-app/static/css/main.e6c13ad2.css",
+    "main.js": "/avi-react-app/static/js/main.44973525.js",
     "static/js/453.49435573.chunk.js": "/avi-react-app/static/js/453.49435573.chunk.js",
-    "static/media/logo.svg": "/avi-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/avi-react-app/index.html",
-    "main.f855e6bc.css.map": "/avi-react-app/static/css/main.f855e6bc.css.map",
-    "main.77cf788c.js.map": "/avi-react-app/static/js/main.77cf788c.js.map",
+    "main.e6c13ad2.css.map": "/avi-react-app/static/css/main.e6c13ad2.css.map",
+    "main.44973525.js.map": "/avi-react-app/static/js/main.44973525.js.map",
     "453.49435573.chunk.js.map": "/avi-react-app/static/js/453.49435573.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.77cf788c.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.44973525.js"
   ]
 }
